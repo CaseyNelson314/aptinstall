@@ -1,30 +1,23 @@
 # APT. install
 
-When 'apt install' is typo as 'aptinstall', execute あぱつ. This is a parody package.
+「apt install」を「aptinstall」とタイポしたときに「あぱつ」が実行されるパロディアプリです。
 
-![Image](https://github.com/user-attachments/assets/f29e4d93-a495-471a-9745-fb8519cfabb9)
+![Demo](demo.gif)
 
-## installation
+リリースページから実行ファイルをダウンロードできます。
 
-```bash
-sudo apt install aptinstall
-```
+<https://github.com/CaseyNelson314/aptinstall/releases/latest>
 
-## usage
+環境変数を設定すると次のように使えます。
 
 ```bash
-sudo aptinstall <package>
+aptinstall
 ```
 
-## local execution
+ローカルでビルドする場合は次のようにします。Go が必要です。
 
 ```bash
 git clone https://github.com/CaseyNelson314/aptinstall.git
 cd aptinstall
 go run .
 ```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
